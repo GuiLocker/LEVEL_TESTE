@@ -33,6 +33,7 @@ var _jump = keyboard_check_pressed(vk_space) || keyboard_check_pressed(vk_up)
 if (_jump && place_meeting(x, y + 1, obj_colisor_chao))
 {
 	gravidade = -10
+	audio_play_sound(snd_jump_player, 10, 0)
 }
 
 
@@ -73,3 +74,5 @@ if (gravidade != 0 && _direcao_horizontal = 0)
 	sprite_index = spr_player_idle_jump
 	image_xscale = 1
 }
+
+
