@@ -76,3 +76,4 @@ if (gravidade != 0 && _direcao_horizontal = 0)
 }
 
 
+
