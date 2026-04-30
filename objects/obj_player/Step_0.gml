@@ -1,5 +1,14 @@
 var _direcao_horizontal = keyboard_check(ord("D")) - keyboard_check(ord("A"))
 
+if (keyboard_check(vk_right))
+{
+	_direcao_horizontal = 1
+}
+if (keyboard_check(vk_left))
+{
+	_direcao_horizontal = -1
+}
+
 
 velocidade_horizontal = _direcao_horizontal * velocidade_horizontal_maxima
 
