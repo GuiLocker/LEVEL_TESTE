@@ -77,3 +77,8 @@ if (gravidade != 0 && _direcao_horizontal = 0)
 
 
 
+if (global.ficar_invisivel = true)
+{
+	image_alpha = lerp(image_alpha, 0, 0.12)
+}
+else{image_alpha = 1}

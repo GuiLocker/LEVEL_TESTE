@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_saida_fase",
   "bboxMode":2,
-  "bbox_bottom":93,
+  "bbox_bottom":57,
   "bbox_left":0,
   "bbox_right":52,
   "bbox_top":43,

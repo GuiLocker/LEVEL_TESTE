@@ -1,1 +1,1 @@
-image_alpha = lerp(image_alpha, 0, 0.1)
+global.ficar_invisivel = true
