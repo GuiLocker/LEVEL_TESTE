@@ -1,3 +1,5 @@
+
+
 var _direcao_horizontal = keyboard_check(ord("D")) - keyboard_check(ord("A"))
 
 if (keyboard_check(vk_right))

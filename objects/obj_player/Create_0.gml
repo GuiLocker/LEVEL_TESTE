@@ -1,3 +1,6 @@
+x = obj_checkpoint.x
+y = obj_checkpoint.y
+
 velocidade_horizontal = 0
 velocidade_horizontal_maxima = 9
 
