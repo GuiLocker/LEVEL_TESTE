@@ -125,24 +125,34 @@ if (!place_meeting(x,y + 10, obj_espinho))
 if (place_meeting(x, y+10, obj_espinho))
 {
 	sprite_index = spr_player_morrendo_espinho
+	
+	if (!audio_is_playing(snd_morrer_espinho))
+	{
+			audio_play_sound(snd_morrer_espinho, 10, 0, 3.5)
+	}
+	
+	
 }
 	
 	
 	
-	
-	
-	
-	
-	
-
-if (keyboard_check(ord("R")))
+if (keyboard_check_pressed(ord("R")))
 {
-	room_restart()
+	
+	if (!audio_is_playing(snd_morrer_espinho))
+	{
+			room_restart()
+			
+	
+		if (!audio_is_playing(snd_reset_player))
+		{
+				audio_play_sound(snd_reset_player, 10, 0, 4.5)
+		}
+	}
+	
+	if (!audio_is_playing(snd_reset_player) && !audio_is_playing(snd_morrer_espinho))
+	{
+			audio_play_sound(snd_reset_player, 10, 0, 0)
+	}
+	
 }
-
-
-
-
-
-
-
