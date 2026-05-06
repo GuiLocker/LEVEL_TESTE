@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_espinhos",
+  "%Name":"obj_espinho",
   "eventList":[],
   "managed":true,
-  "name":"obj_espinhos",
+  "name":"obj_espinho",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -26,10 +26,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
-    "name":"spr_espinhos",
-    "path":"sprites/spr_espinhos/spr_espinhos.yy",
+    "name":"spr_espinho",
+    "path":"sprites/spr_espinho/spr_espinho.yy",
   },
   "spriteMaskId":null,
   "visible":true,
