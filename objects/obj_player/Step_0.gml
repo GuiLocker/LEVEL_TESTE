@@ -27,6 +27,10 @@ if (!place_meeting(x, y + 1, obj_colisor_chao))
 else {gravidade = 0; gravidade += 0; }
 
 
+
+
+
+
 move_and_collide(velocidade_horizontal, velocidade_vertical, obj_colisor_parede)
 
 
@@ -89,3 +93,5 @@ if (keyboard_check(ord("R")))
 {
 	room_restart()
 }
+
+show_debug_message(vez_morte)

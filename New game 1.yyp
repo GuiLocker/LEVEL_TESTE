@@ -50,6 +50,7 @@
     {"id":{"name":"spr_colisor_parede","path":"sprites/spr_colisor_parede/spr_colisor_parede.yy",},},
     {"id":{"name":"spr_espinho","path":"sprites/spr_espinho/spr_espinho.yy",},},
     {"id":{"name":"spr_player_idle_jump","path":"sprites/spr_player_idle_jump/spr_player_idle_jump.yy",},},
+    {"id":{"name":"spr_player_morrendo_espinho","path":"sprites/spr_player_morrendo_espinho/spr_player_morrendo_espinho.yy",},},
     {"id":{"name":"spr_player_move_jump","path":"sprites/spr_player_move_jump/spr_player_move_jump.yy",},},
     {"id":{"name":"spr_player_walk","path":"sprites/spr_player_walk/spr_player_walk.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
