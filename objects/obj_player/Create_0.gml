@@ -9,7 +9,9 @@ velocidade_vertical = 0
 gravidade = 0
 aceleracao_gravitacional = 0.45
 
-vez_morte = 0
+morto = false
+
+
 
 image_index = 0
 image_speed = 0
