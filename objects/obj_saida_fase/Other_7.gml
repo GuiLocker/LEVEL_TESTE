@@ -1,5 +1,5 @@
 image_speed = 0
 
-room_goto_next()
 
-global.ficar_invisivel = false
+
+obj_transicao_cena.image_alpha = lerp(image_alpha, 1, 0.1)
