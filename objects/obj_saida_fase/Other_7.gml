@@ -1,5 +1,14 @@
 image_speed = 0
 
+var _cam = view_get_camera(0)
+
+var _cam_x = camera_get_view_x(_cam)
+var _cam_y = camera_get_view_y(_cam)
 
 
-obj_transicao_cena.image_alpha = lerp(image_alpha, 1, 0.1)
+
+layer_sequence_create("Transicao_cena", _cam_x + 320, _cam_y + 180, sqc_transicao_inicio_cena)
+
+
+
+
