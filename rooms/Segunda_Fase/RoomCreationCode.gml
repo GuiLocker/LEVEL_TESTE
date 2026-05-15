@@ -1,1 +1,1 @@
-layer_sequence_create("Transicao_cena", obj_player.x, obj_player.y, sqc_transicao_fim_cena)
+layer_sequence_create("Transicao_cena", obj_player.x, obj_player.y -50, sqc_transicao_fim_cena)
