@@ -127,7 +127,10 @@ if (global.player_liberado = true)
 	if (place_meeting(x, y+10, obj_espinho))
 	{
 		sprite_index = spr_player_morrendo_espinho
-	
+		
+		global.room_primeira_vez_iniciada = false
+		
+		
 		if (!audio_is_playing(snd_morrer_espinho))
 		{
 				audio_play_sound(snd_morrer_espinho, 10, 0, 3.5)
@@ -140,6 +143,9 @@ if (global.player_liberado = true)
 	
 	if (keyboard_check_pressed(ord("R")))
 	{
+		
+		global.room_primeira_vez_iniciada = false
+		
 	
 		if (!audio_is_playing(snd_morrer_espinho))
 		{
@@ -165,3 +171,4 @@ if (global.player_liberado = true)
 else{}
 
 
+show_debug_message(global.room_primeira_vez_iniciada)
