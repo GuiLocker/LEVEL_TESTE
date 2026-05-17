@@ -6,8 +6,8 @@ global.room_primeira_vez_iniciada = true
 
 function inicio_transicao_cena ()
 {
-	room_goto_next()
 	global.ficar_invisivel = false
+	room_goto_next()
 }
 function fim_transicao_cena_fim ()
 {

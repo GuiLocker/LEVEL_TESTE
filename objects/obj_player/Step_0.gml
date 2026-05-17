@@ -171,4 +171,3 @@ if (global.player_liberado = true)
 else{}
 
 
-show_debug_message(global.room_primeira_vez_iniciada)
