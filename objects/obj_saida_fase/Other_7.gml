@@ -1,4 +1,5 @@
 image_speed = 0
+global.player_liberado = false
 
 var _cam = view_get_camera(0)
 
